@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.form1,
+.form2,
+.form3{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  max-width: 500px;
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+}
+
+input[type="submit"]{
+  display: block;
+  background-color: #ffa500;
+  color: #fff;
+  padding: 10px 50px;
+  border: none;
+  margin: 0 auto;
+}
